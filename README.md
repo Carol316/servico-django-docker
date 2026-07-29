@@ -14,40 +14,40 @@ Projeto de estudo simulando o papel de Desenvolvedor em uma equipe Ágil, com en
 
 1. Clone o repositório:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/SEU-USUARIO/servico-django-docker.git
    cd servico-django-docker
-   \`\`\`
+   ```
 
 2. Suba o serviço com o comando:
 
-   \`\`\`bash
+   ```bash
    docker compose up --build
-   \`\`\`
+   ```
 
 3. Acesse no navegador:
 
-   \`\`\`
+   ```
    http://localhost:8000
-   \`\`\`
+   ```
 
 4. Para parar o serviço:
 
-   \`\`\`bash
+   ```bash
    docker compose down
-   \`\`\`
+   ```
 
 ### Opção 2: Rodando localmente sem Docker (desenvolvimento)
 
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
-venv\\Scripts\\Activate.ps1  # Windows PowerShell
+venv\Scripts\Activate.ps1  # Windows PowerShell
 
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 0.0.0.0:8000
-\`\`\`
+```
 
 ## 🗂️ Quadro Kanban da Sprint
 
